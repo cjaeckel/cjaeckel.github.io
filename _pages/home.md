@@ -34,6 +34,6 @@ feature_row:
     btn_label: "Learn more"      
 ---
 
-> The home fo some private projects and insights.
+The home fo some private projects and insights.
 
 {% include feature_row %}
