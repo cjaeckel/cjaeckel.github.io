@@ -6,15 +6,15 @@ header:
   overlay_color: "#575a64"
   overlay_image: /assets/img/SHA256blured.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-sign-in'></i> Welcome"
+      url: "/about/"
 excerpt: >
-  The home fo some private projects and insights.
+  The home of some private projects, insights and tools.
 feature_row:
   - image_path: /assets/img/uMINER-network.jpg
     alt: "μMINER"
     title: "CRYPTO μMINER"
-    excerpt: "Crypto mining in a different way"
+    excerpt: "Crypto mining in a tiny stylish box"
     url: "https://github.com/cjaeckel/uMINER"
     btn_class: "btn--primary"
     btn_label: "Learn more"
