@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Some Routines Lab"
 title_separator          : "-"
-subtitle                 : "work in progress"
+subtitle                 : #"work in progress"
 name                     : &name "chj"
 description              : &description "Another site"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
