@@ -8,13 +8,13 @@ search: false
 @font-face {
   font-family: 'Orbitron';
   font-weight: 500;
-  src: url(../Orbitron-VariableFont_wght.ttf) format('ttf');
+  src: url(/assets/Orbitron-VariableFont_wght.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Orbitron-bold';
   font-weight: 700;
-  src: url(../Orbitron-VariableFont_wght.ttf) format('ttf');
+  src: url(../Orbitron-VariableFont_wght.ttf) format('truetype');
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
