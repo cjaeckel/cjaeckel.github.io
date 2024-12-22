@@ -1,5 +1,5 @@
 ﻿---
-permalink: /docs/
+permalink: /docs/uMINER/
 title: "uMINER FAQ"
 ---
 
