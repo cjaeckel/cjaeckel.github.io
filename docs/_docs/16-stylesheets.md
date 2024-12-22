@@ -88,7 +88,7 @@ By default the theme uses [system fonts](https://medium.com/designing-medium/sys
 
 ```scss
 /* system typefaces */
-$serif      : Orbitron, Georgia, Times, serif;
+$serif      : Georgia, Times, serif;
 $sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace  : Monaco, Consolas, "Lucida Console", monospace;
 ```
