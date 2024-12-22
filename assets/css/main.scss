@@ -5,5 +5,17 @@ search: false
 
 @charset "utf-8";
 
+@font-face {
+  font-family: 'Orbitron';
+  font-weight: 500;
+  src: url(../Orbitron-VariableFont_wght.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Orbitron-bold';
+  font-weight: 700;
+  src: url(../Orbitron-VariableFont_wght.ttf) format('ttf');
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
