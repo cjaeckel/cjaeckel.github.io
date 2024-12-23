@@ -19,7 +19,7 @@ feature_row:
     url: "https://github.com/cjaeckel/uMINER"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: "https://avatars.githubusercontent.com/u/158474868?s=200&v=4"
+  - image_path: "/assets/img/tlabs.png"
     alt: "Tlabs Lib"
     title: "Tlabs Library"
     excerpt: "A .NET framework to facilitate the application of software architecture and design patterns, best practices and miscellaneous utilities in order to speed up implementation and enhance overall code quality of custom application development."
