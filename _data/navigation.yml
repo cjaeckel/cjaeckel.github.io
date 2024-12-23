@@ -11,7 +11,7 @@ main:
 
 # uMINER links
 uMINER:
-  - title: μMINER FAQ
+  - title: CRYPTO MINER FAQ
     children:
       - title: "english"
         url: /docs/uMINER/

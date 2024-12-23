@@ -115,7 +115,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : /assets/img/chj.png
-  bio              : "Always a passionate developer and creative software solution architect."
+  bio              : "A always passionate developer and creative software solution architect."
   location         : "Upper Bavaria, 4½ Lakes County"
   email            :
   links:
