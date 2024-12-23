@@ -166,6 +166,7 @@ include:
   - .htaccess
   - _pages
   - _docs
+  - _tools
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -345,6 +346,7 @@ defaults:
       path: ""
       type: tools
     values:
+      title: :basename
       read_time: false
       author_profile: false
       share: false

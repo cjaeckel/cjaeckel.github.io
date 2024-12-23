@@ -3,7 +3,7 @@ title: Tools
 layout: collection
 permalink: /tools/
 collection: tools
-entries_layout: grid
+entries_layout: list
 classes: wide
 ---
 

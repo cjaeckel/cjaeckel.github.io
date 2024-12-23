@@ -1,6 +1,7 @@
 ---
 permalink: /docs/uMINER_de/
 title: "CRYPTO μMINER FAQ (de)"
+last_modified_at: 2024-12-22T13:21:09
 locale: "de"
 hidden: true
 ---
