@@ -15,7 +15,7 @@ feature_row:
   - image_path: /assets/img/uMINER-network.jpg
     alt: "μMINER"
     title: "CRYPTO μMINER"
-    excerpt: "Crypto mining in a tiny stylish box"
+    excerpt: "Crypto mining with a tiny stylish box using just a minimum of electric power."
     url: "https://github.com/cjaeckel/uMINER"
     btn_class: "btn--primary"
     btn_label: "Learn more"
