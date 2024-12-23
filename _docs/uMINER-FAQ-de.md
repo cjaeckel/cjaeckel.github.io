@@ -1,5 +1,4 @@
 ---
-layout: single
 permalink: /docs/uMINER_de/
 title: "CRYPTO μMINER FAQ (de)"
 locale: "de"

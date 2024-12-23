@@ -1,10 +1,6 @@
 ---
 permalink: /docs/uMINER/
 title: "CRYPTO μMINER FAQ"
-layout: single
-toc_sticky: true
-sidebar:
-	nav: "docs"
 ---
 
 # **CRYPTO μMINER FAQ**
