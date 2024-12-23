@@ -8,7 +8,7 @@ last_modified_at: 2024-12-22T13:21:09
 **CONTROLS**
 <img src="/assets/img/Overview.png" width="80%"/>
 
-## A. WTF \- what is this for?
+## A. WTF \- is this for?
 
 Apart from the fact that crazy gadgets are of course completely legitimate, here are a few ideas as suggested use cases:  
 (Terms marked with 👁‍🗨 are best looked up on Google...)
@@ -70,7 +70,7 @@ and that I then found and put together.)
 | {::nomarkdown}<ul><li>Real-time multitasking core</li><li>network stack: WiFi, TCP-IP, HTTP, Stratum</li><li>Web server for configuration via WiFi access point</li><li>Graphics library for the display</li><li>Crypto library for the mining functions</li></ul>{:/nomarkdown} | The whole thing (including my part) can be found on the Internet as open source software 👁‍🗨 <br/>Well, there really is a lot more than dancing influencers and cat videos… |
 |![][image1] | [![gitHub][image2] https://github.com/cjaeckel/uMiner](https://github.com/cjaeckel/uMiner) |
 
-## B. What exactly is in the screens?
+## B. What exactly is shown on the screens?
 
 ### SCREEN \#1
 
@@ -78,7 +78,7 @@ The first screen (yellow border) shows your current progress and your achievemen
 
 1. BLOCK TEMPLATES  
    This is the number of search tasks from the Bitcoin network that have been processed so far.  
-   (The task basically consists of looking for a tiny needle in a huge intergalactic haystack. Whoever finds it first can use it to verify a transaction block in the blockchain and receives the reward.)  
+   (The task basically consists of looking for a tiny needle in a huge intergalactic sized haystack. Whoever finds it first can use it to verify a transaction block in the blockchain and receives the reward.)  
    In principle, there are two strategies for success in the search:  
    1. To search really quickly with a lot of electrical energy and computer power.  
    2. Just be super lucky\!  
@@ -101,7 +101,7 @@ The first screen (yellow border) shows your current progress and your achievemen
 
 ### SCREEN \#2
 
-Here you can see how time passes, which is synchronized with the internet with great precision.  
+Here you can see how time passes. The time is synchronized with the internet with great precision.  
 (Of course, we always keep an eye on the fact that crypto mining continues to run in the background...)
 
 ### SCREEN \#3
@@ -151,9 +151,10 @@ This screen provides information about further status parameters of the **CRYPTO
    Turn off the display backlight when you leave the **CRYPTO μMINER** alone.  
    Without the otherwise necessary screen update, the hashrate increases and you also keep the CPU temperature low.  
 3. DARK ENVIRONMENT  
-    Dim the display brightness down to avoid being blinded by the maximum bright display.  
+    Dim the display down to avoid being blinded by the maximum display brightness.  
 4. BUTTON CUSTOMIZING  
-    Depending on whether you prefer the USB connection on the left or right, you can rotate the display by 180° by double-clicking on the display button. It is best to add a *custom*  
+    Depending on whether you prefer the USB connection on the left or right side, you can rotate the display by 180°
+		with double-clicking on the display button. It is best to add a *custom*  
     marking to one of the buttons (eg with a permanent marker) so that the buttons are not confused.
 
 
@@ -182,9 +183,9 @@ your reward will be transferred to your Bitcoin address. (I.e. a corresponding e
 
 You can view the transactions to any (or even **your** ) Bitcoin address at any time in the network:
 
-![][image3] https://mempool.space/
+[![][image3] https://mempool.space/](https://mempool.space/)
 
-If you not only want to enjoy your winning Bitcoins, but also want to spend them again, it will be necessary for you to set up a digital cryptocurrency wallet.
+If you not only want to enjoy your winning of Bitcoins, but also want to spend them again, it will be necessary for you to setup a digital cryptocurrency wallet.
 
 ## G. How do cryptocurrencies work?
 

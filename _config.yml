@@ -305,7 +305,7 @@ collections:
     permalink: /:collection/:path/
   tools:
     output: true
-    permalink: /:collection/:path/
+    permalink: /tools/:basename/
 
 # Defaults
 defaults:
@@ -340,3 +340,12 @@ defaults:
       toc: true
       sidebar:
         nav: "uMINER"
+  - # _tools
+    scope:
+      path: ""
+      type: tools
+    values:
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false

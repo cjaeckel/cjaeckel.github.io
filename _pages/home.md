@@ -19,11 +19,11 @@ feature_row:
     url: "https://github.com/cjaeckel/uMINER"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: "https://avatars.githubusercontent.com/u/158474868?s=200&v=4"
+    alt: "Tlabs Lib"
+    title: "Tlabs Library"
+    excerpt: "A .NET framework to facilitate the application of software architecture and design patterns, best practices and miscellaneous utilities in order to speed up implementation and enhance overall code quality of custom application development."
+    url: "https://tlabs.tomorrowlabs.io/tlabs-lib.html"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-free-feature.png
