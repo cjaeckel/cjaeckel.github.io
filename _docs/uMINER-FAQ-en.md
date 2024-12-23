@@ -24,7 +24,7 @@ Apart from the fact that crazy gadgets are of course completely legitimate, here
 	 Like the gold prospectors in the wilderness of old, you can become *rich* and *famous* as a modern digital Bitcoins miner \!  
 	 All you need is Wi-Fi, very little power and a lot of luck… (If you manage to verify a new transaction block of the global Bitcoin *blockchain 👁‍🗨 with the* **CRYPTO μMINER** , you will currently receive the following as a reward:
 
-   **3,125 BTC**  
+   >**3,125 BTC**  
 	 (Screen \#3 shows you the price at which a single Bitcoin is currently being traded…)
 
 1. **Mobile Device**  

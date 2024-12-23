@@ -1,8 +1,8 @@
 ---
-layout: single #splash
+layout: splash
 permalink: /
 hidden: true
-author_profile: true
+# author_profile: true
 header:
   overlay_color: "#575a64"
   overlay_image: /assets/img/SHA256blured.jpg

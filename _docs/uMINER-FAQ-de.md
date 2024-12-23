@@ -1,13 +1,15 @@
 ﻿---
+layout: single
 permalink: /docs/uMINER_de/
-title: "CRYPTO μMINER FAQ"
+title: "CRYPTO μMINER FAQ (de)"
+locale: "de"
 ---
 
 # **CRYPTO μMINER FAQ**
 
 **CONTROLS**
 
-1. ## **WTF \- wozu ist das?**
+## A. WTF \- wozu ist das?
 
 Abgesehen davon, dass crazy Gadgets natürlich eine völlig ernstzunehmende Eigenberechtigung haben, hier ein paar Ideen als Anwendungsvorschläge:  
 (Begriffe die mit 👁‍🗨 gekennzeichnet sind am bestem mal per Google nachsehen…)
@@ -19,11 +21,9 @@ Abgesehen davon, dass crazy Gadgets natürlich eine völlig ernstzunehmende Eige
 2. **MINING RIG** 👁‍🗨  
    Wie früher die Goldsucher in der Wildnis, kannst du damit als ein moderner digitaler Bitcoins Miner *reich* und *berühmt* werden\!  
    Alles was du sonst noch brauchst ist Wi-Fi, ganz wenig Strom und sehr sehr viel Glück…  
-   (Wenn es dir gelingt mit dem **CRYPTO μMINER** einen neuen Transaktionsblock der globalen Bitcoin *Blockchain* 👁‍🗨 zu verifizieren, erhältst du dafür zur Zeit als Belohnung::
-
-**3,125 BTC**
-
-(Auf Screen \#3 wird dir angezeigt, zu welchem Preis ein einziger Bitcoin gerade gehandelt wird…)
+   (Wenn es dir gelingt mit dem **CRYPTO μMINER** einen neuen Transaktionsblock der globalen Bitcoin *Blockchain* 👁‍🗨 zu verifizieren, erhältst du dafür zur Zeit als Belohnung:  
+	>**3,125 BTC**  
+	(Auf Screen \#3 wird dir angezeigt, zu welchem Preis ein einziger Bitcoin gerade gehandelt wird…)
 
 3. **Mobile Device**  
    Wenn du richtig cool sein willst, schließt du den **CRYPTO μMINER** per USB Kabel an eine Powerbank oder dein Smartphone an. Wenn du dann noch einen Hotspot auf machst, hast du einen mobilen **CRYPTO μMINER**, den du allen deinen Freunden überall zeigen kannst…
@@ -34,7 +34,7 @@ Abgesehen davon, dass crazy Gadgets natürlich eine völlig ernstzunehmende Eige
 5. **Einsicht**  
    Man kann das kleine Teil auch als Anlass dazu nehmen tiefer in die Cyber-Welt des Internets zu dem völlig dezentralen digitalen Geld (auch *Cryptocurrency* 👁‍🗨 genannt) vorzudringen, um besser zu verstehen wie das alles funktioniert und wie das eigentlich programmiert wird. Das kann man nämlich auch selber machen\! (siehe unten).
 
-2. ## **Was ist da drin?**
+## B. Was ist da drin?
 
 In der kleinen Plastikbox (die man auch mit einem 3D-Drucker hätte herstellen können, wenn man nur einen hätte 😢) ist natürlich ein *kleiner* Computer, also die
 
@@ -47,7 +47,7 @@ In der kleinen Plastikbox (die man auch mit einem 3D-Drucker hätte herstellen k
 | RAM | 8 Mbyte |
 | Flash | 16 Mbyte |
 | Display | TFT 170x320 (H)RGB |
-| Interface | USB, 16 GPIO,Reset \+ 2xButton |
+| Interface | USB, 16 GPIO,<br/>Reset \+ 2xButton |
 | Power | 3.3V \< 180mA |
 
 Tja, soweit heute ganz niedlich. \- Aber nur so zum Vergleich:
@@ -64,14 +64,14 @@ Außerdem von außen völlig unsichtbar steckt in dem Flash-Speicher ca. 1.8 Mby
 Und die habe ich zu einem gewissen Teil selbst gebastelt.  
 (Der überwiegende Teil baut auf Komponenten auf, die andere schon irgendwann mal gemacht haben und dann von mir gefunden und zusammengestückelt wurden.)
 
-| Echtzeit multitasking Kern Netzwerk Stack: Wifi, TCP-IP, HTTP, Stratum Web-Server für Konfiguration über WiFi Access Point Grafik Bibliothek für das Display Crypto Bibliothek für die Mining-Funktionen  | Das ganze (mein Teil inklusive) findet sich im Internet als Open Source Software 👁‍🗨 Tja, es gibt da wirklich noch viel mehr als tanzende Influencer (m/w/d) und Katzenvideos… |
-| :---- | :---- |
+| 		|  	|
+| :--- | :--- |
+| <ul><li>Echtzeit multitasking Kern</li><li>Netzwerk Stack: Wifi, TCP-IP, HTTP, Stratum</li><li>Web-Server für Konfiguration über WiFi Access Point</li><li>Grafik Bibliothek für das Display</li><li>Crypto Bibliothek für die Mining-Funktionen</li><ul> | Das ganze (mein Teil inklusive) findet sich im Internet als Open Source Software 👁‍🗨 Tja, es gibt da wirklich noch viel mehr als tanzende Influencer (m/w/d) und Katzenvideos… |
+| ![][image1] | ![][image2]  https://github.com/cjaeckel/uMiner |
 
-![][image1] ![][image2]  https://github.com/cjaeckel/uMiner
+## C. Was genau steht in den Screens?
 
-3. ## **Was genau steht in den Screens?**
-
-### **SCREEN \#1**
+### SCREEN \#1
 
 Auf dem ersten Screen (gelber Rand) wird dein aktueller Fortschritt und deine Erfolge bei der Bitcoin Suche angezeigt:
 
@@ -105,12 +105,12 @@ Auf dem ersten Screen (gelber Rand) wird dein aktueller Fortschritt und deine Er
    Die aktuelle Anzahl an Suchzugriffen in den Heuhaufen pro Sekunde.  
    Diese Zahl schwankt in Abhängigkeit von der Rechenleistung die der **CRYPTO μMINER** für andere Aufgaben wie Netzwerkkommunikation oder Bildschirmaufbau abzweigen muss. (Manchmal kann auch mal der Nachschub an neuen Suchaufgaben etwas stocken…)
 
-### **SCREEN \#2**
+### SCREEN \#2
 
 Hier kann man sehen, wie die super genau mit dem Internet synchronisierte Zeit vergeht.  
 (Das das Crypto-Mining im Hintergrund weiter läuft, behalten wir natürlich auch immer mit einem Auge im Blick…)
 
-### **SCREEN \#3**
+### SCREEN \#3
 
 Auf diesem Screen kann man eine Übersicht über wichtige Parameter des globalen Bitcoin Netzwerks erhalten.
 
@@ -135,7 +135,7 @@ Auf diesem Screen kann man eine Übersicht über wichtige Parameter des globalen
    Die aktuelle Anzahl der Suchversuche aller Mining Computer im globalen Bitcoin Netzwerk in einer einzigen Sekunde.  
    (Okay, wieder SI prefixed. Hier mit E also EH/s sprich *Exa* also Faktor 10^18 😨- unser **CRYPTO μMINER** schafft gerade so 80 kH/s also Faktor 10^3 \- aber wir setzen halt einfach auf viel mehr Glück\!
 
- **SCREEN \#4**
+ ### SCREEN \#4
 
 Dieser Screen gibt Auskunft über weitere Status Parameter des **CRYPTO μMINER.**
 
@@ -158,7 +158,7 @@ Dieser Screen gibt Auskunft über weitere Status Parameter des **CRYPTO μMINER.
    Wer viel rechnet, kann einen heißen Kopf bekommen. Alles unter 70° ist okay. (Ein Abschalten des Backlights schafft für Kühlung.)  
    Die Spannungsangabe ist ein Indikator für die Güte des USB-Kabels. (Je näher bei 5V, umso besser…)
 
-4. ## **Tips & Tricks?**
+## D. Ein paar Tips & Tricks?
 
 1. ALWAYS ON  
    Halte den **CRYPTO μMINER** möglichst immer eingeschaltet. Damit erhöhst du deine Chance auf einen Gewinn.  
@@ -175,9 +175,8 @@ Dieser Screen gibt Auskunft über weitere Status Parameter des **CRYPTO μMINER.
    Je nach dem, ob man den USB-Anschluss lieber links oder rechts hat, kann man durch Doppel-Klick auf den Display-Button die Darstelung um 180° Grad drehen.  
    Am besten bringt man an einem der Buttons eine *custom* Markierung an (z.B. per Edding Stift), um die Buttons nicht zu verwechseln.
 
-## 
 
-5. ## **Wie startet man das Setup des CRYPTO μMINER?**
+## E. Wie startet man das Setup des **CRYPTO μMINER**?
 
 Um sich mit dem Bitcoin Netzwerk zu verbinden, benötigt der **CRYPTO μMINER**:
 
@@ -194,7 +193,7 @@ Mit dem Button “Wifi Setup” kannst du du nun
 * Die Zugangsdaten zu einem Wi-Fi Netzwerk konfigurieren (SSID und Password)  
 * Deine Mining Pool Daten anpassen.
 
-6. ## **Wo sind meine Bitcoins?**
+## F. Wo sind meine Bitcoins?
 
 Sobald dein **CRYPTO μMINER** einen Transaktionsblock in der Blockchain verifiziert hat, wird dir deine Belohnung an deine Bitcoin Adresse überwiesen. (D.h. es wird ein entsprechender Eintrag in der globalen Blockchain hinterlegt.)
 
@@ -202,11 +201,9 @@ Du kannst die Transaktionen auf eine beliebige (oder auch **deine**) Bitcoin Adr
 
 ![][image3] https://mempool.space/
 
-Deine öffentliche Adresse findest du auf der beiliegenden  **CRYPTO μMINER License**, die du unbedingt gut und sicher aufbewahren solltest.
-
 Wenn du dich nicht nur über deine gewonnen Bitcoins freuen willst, sondern diese wieder ausgeben willst, wird es notwendig, dass du dich mit der Einrichtung eines digitalen Cryptocurrency Wallets beschäftigst.
 
-7. ## **Wie funktionieren die Cryptocurrencies?**
+## G. Wie funktionieren die Cryptocurrencies?
 
 Eine sehr gute, aber leider auch nur sehr schwer zu beantwortende Frage. Als Einstieg sei folgendes als weitergehende Lektüre empfohlen:
 
