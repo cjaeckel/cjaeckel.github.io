@@ -305,7 +305,7 @@ collections:
     permalink: /:collection/:path/
   tools:
     output: true
-    permalink: /tools/:basename/
+    permalink: /:collection/:basename/
 
 # Defaults
 defaults:
