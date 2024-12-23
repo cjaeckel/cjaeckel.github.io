@@ -1,214 +1,199 @@
 ﻿---
-permalink: /docs/uMINER_de/
+permalink: /docs/uMINER/
 title: "CRYPTO μMINER FAQ"
+layout: single
+toc_sticky: true
+sidebar:
+	nav: "docs"
+
 ---
 
 # **CRYPTO μMINER FAQ**
 
 **CONTROLS**
 
-1. ## **WTF \- wozu ist das?**
+## A. WTF \- what is this for?
 
-Abgesehen davon, dass crazy Gadgets natürlich eine völlig ernstzunehmende Eigenberechtigung haben, hier ein paar Ideen als Anwendungsvorschläge:  
-(Begriffe die mit 👁‍🗨 gekennzeichnet sind am bestem mal per Google nachsehen…)
+Apart from the fact that crazy gadgets are of course completely legitimate, here are a few ideas as suggested use cases:  
+(Terms marked with 👁‍🗨 are best looked up on Google...)
 
-1. **UHRZEIT MIT DATUM**  
-   Wenn du auf Screen \#2 wechselst, hast du eine prima Uhrzeitanzeige.  
-   (Die Zeitanzeige ist sehr genau und wird per *Network Time Protocol (NTP)*👁‍🗨 automatisch aktualisiert.)
-
+1. **CLOCK WITH DATE**  
+   If you switch to screen \#2, you have a great time display.  
+   (The time display is very accurate and is automatically updated via *Network Time Protocol (NTP) 👁‍🗨.)*  
 2. **MINING RIG** 👁‍🗨  
-   Wie früher die Goldsucher in der Wildnis, kannst du damit als ein moderner digitaler Bitcoins Miner *reich* und *berühmt* werden\!  
-   Alles was du sonst noch brauchst ist Wi-Fi, ganz wenig Strom und sehr sehr viel Glück…  
-   (Wenn es dir gelingt mit dem **CRYPTO μMINER** einen neuen Transaktionsblock der globalen Bitcoin *Blockchain* 👁‍🗨 zu verifizieren, erhältst du dafür zur Zeit als Belohnung::
+	 Like the gold prospectors in the wilderness of old, you can become *rich* and *famous* as a modern digital Bitcoins miner \!  
+	 All you need is Wi-Fi, very little power and a lot of luck… (If you manage to verify a new transaction block of the global Bitcoin *blockchain 👁‍🗨 with the* **CRYPTO μMINER** , you will currently receive the following as a reward:
 
-**3,125 BTC**
+   **3,125 BTC**  
+	 (Screen \#3 shows you the price at which a single Bitcoin is currently being traded…)
 
-(Auf Screen \#3 wird dir angezeigt, zu welchem Preis ein einziger Bitcoin gerade gehandelt wird…)
+1. **Mobile Device**  
+   If you want to be really cool, connect the **CRYPTO μMINER** to a power bank or your smartphone using a USB cable. If you then set up a hotspot, you have a mobile **CRYPTO μMINER** that you can show all your friends everywhere...
 
-3. **Mobile Device**  
-   Wenn du richtig cool sein willst, schließt du den **CRYPTO μMINER** per USB Kabel an eine Powerbank oder dein Smartphone an. Wenn du dann noch einen Hotspot auf machst, hast du einen mobilen **CRYPTO μMINER**, den du allen deinen Freunden überall zeigen kannst…
+2. **Competition**  
+   In exchange with other **CRYPTO μMINER** owners you can compare all kinds of high scores: Who has the longest *up-time* , the most *shares or the highest difficulty* achieved ...
 
-4. **Wettbewerb**  
-   Im Austausch mit anderen **CRYPTO μMINER** Besitzern kann man alle möglichen Highscores abgleichen: Wer hat die längste *Up-Time*, die meisten *Shares* oder die höchste erreichte *Difficulty*…
+3. **Insight**  
+   You can also use this little piece as an opportunity to delve deeper into the cyber world of the Internet and the completely decentralized digital money (also called *cryptocurrency* 👁‍🗨) in order to better understand how it all works and how it is actually programmed. Yes, you can do it yourself\! (see below).
 
-5. **Einsicht**  
-   Man kann das kleine Teil auch als Anlass dazu nehmen tiefer in die Cyber-Welt des Internets zu dem völlig dezentralen digitalen Geld (auch *Cryptocurrency* 👁‍🗨 genannt) vorzudringen, um besser zu verstehen wie das alles funktioniert und wie das eigentlich programmiert wird. Das kann man nämlich auch selber machen\! (siehe unten).
+## B. What's in there?
 
-2. ## **Was ist da drin?**
-
-In der kleinen Plastikbox (die man auch mit einem 3D-Drucker hätte herstellen können, wenn man nur einen hätte 😢) ist natürlich ein *kleiner* Computer, also die
+In the small plastic box (which you could have made with a 3D printer if you only had one 😢) there is of course a *small* computer, so the
 
 ### **HARDWARE**
 
 | CPU (microcontroller) | ESP32-S3R8 32 bit Dual-core LX7 @240MHz |
-| :---- | :---- |
-| Wi-Fi | 802.11 |
-| Bluetooth (unbenutzt) | BLE 5 \+ BT mesh |
-| RAM | 8 Mbyte |
-| Flash | 16 Mbyte |
-| Display | TFT 170x320 (H)RGB |
-| Interface | USB, 16 GPIO,Reset \+ 2xButton |
-| Power | 3.3V \< 180mA |
+| :---- 								| :---- |
+| Wi-Fi 								| 802.11 |
+| Bluetooth (unused) 		| BLE 5 \+ BT mesh |
+| RAM 									| 8 Mbyte |
+| Flash 								| 16 Mbyte |
+| Display 							| TFT 170x320 (H)RGB |
+| Interface 						| USB, 16 GPIO, <br/> Reset \+ 2xButton |
+| Power 								| 3.3V \< 180mA |
 
-Tja, soweit heute ganz niedlich. \- Aber nur so zum Vergleich:
+Well, so far so cute today. \- But just for comparison:
 
-* 1980 hatte mein erster Computer eine **8 bit MOS 6502 CPU mit 1 MHz** (genau wie der Apple II) sowie 1 kB RAM, 1 kB ROM und ein 6 stelliges 7-Segment Display.  
-* 1985 hatte mein erstes Auto weniger als 50 PS
+* In 1980, my first computer had an **8 bit MOS 6502 CPU with 1 MHz** (just like the `Apple II`),
+  1 kB RAM, 1 kB ROM and a 6-digit 7-segment display.  
+* In 1985 my first car had less than 50 hp
 
-Wenn sich das also mit der *v8-Steam-Diesel* Technologie bei Autos so entwickelt hätte wie mit dem **CRYPTO μMINER**, dann hätte jetzt ein kleines Auto locker 50.000 PS und wäre so billig, dass manche es glatt in China bestellen und zu Weihnachten verschenken würden…
+If the *v8 steam diesel* technology in cars had developed the way it did with the **CRYPTO μMINER** ,
+then a small car would easily have 50,000 hp and would be so cheap that some people would order it from China and give it as a Christmas present...
 
-Außerdem von außen völlig unsichtbar steckt in dem Flash-Speicher ca. 1.8 Mbyte von etwas das da heißt:
+In addition, completely invisible from the outside, the flash memory contains about 1.8 Mbyte of something called:
 
 ### **SOFTWARE**
 
-Und die habe ich zu einem gewissen Teil selbst gebastelt.  
-(Der überwiegende Teil baut auf Komponenten auf, die andere schon irgendwann mal gemacht haben und dann von mir gefunden und zusammengestückelt wurden.)
+And I made some of it myself.  
+(The majority of the software is based on components that others have already made at some point
+and that I then found and put together.)
 
-| Echtzeit multitasking Kern Netzwerk Stack: Wifi, TCP-IP, HTTP, Stratum Web-Server für Konfiguration über WiFi Access Point Grafik Bibliothek für das Display Crypto Bibliothek für die Mining-Funktionen  | Das ganze (mein Teil inklusive) findet sich im Internet als Open Source Software 👁‍🗨 Tja, es gibt da wirklich noch viel mehr als tanzende Influencer (m/w/d) und Katzenvideos… |
-| :---- | :---- |
+| 		|  	|
+| :--- | :--- |
+| <ul><li>Real-time multitasking core</li><li>network stack: WiFi, TCP-IP, HTTP, Stratum</li><li>Web server for configuration via WiFi access point</li><li>Graphics library for the display</li><li>Crypto library for the mining functions</li></ul> | The whole thing (including my part) can be found on the Internet as open source software 👁‍🗨 <br/>Well, there really is a lot more than dancing influencers and cat videos… |
+|![][image1] | ![][image2] https://github.com/cjaeckel/uMiner |
 
-![][image1] ![][image2]  https://github.com/cjaeckel/uMiner
+## B. What exactly is in the screens?
 
-3. ## **Was genau steht in den Screens?**
+### SCREEN \#1
 
-### **SCREEN \#1**
-
-Auf dem ersten Screen (gelber Rand) wird dein aktueller Fortschritt und deine Erfolge bei der Bitcoin Suche angezeigt:
+The first screen (yellow border) shows your current progress and your achievements in the Bitcoin search:
 
 1. BLOCK TEMPLATES  
-   Das ist die Anzahl der bisher bearbeiteten Suchaufgaben aus dem Bitcoin-Netz.  
-   (Die Aufgabe besteht praktisch aus der Suche nach einer winzigen Nadel in einem riesigen intergalaktisch großen Heuhaufen. Wer die als erster findet, kann damit einen Transaktionsblock in der Blockchain verifizieren und erhält die Belohnung.)  
-   Prinzipiell gibt es bei der Suche zwei Strategien zum Erfolg:
-
-   1. Mit super viel elektrischer Energie und Computerleistung richtig schnell zu suchen.  
-   2. Einfach super viel Glück haben\!
-
+   This is the number of search tasks from the Bitcoin network that have been processed so far.  
+   (The task basically consists of looking for a tiny needle in a huge intergalactic haystack. Whoever finds it first can use it to verify a transaction block in the blockchain and receives the reward.)  
+   In principle, there are two strategies for success in the search:  
+   1. To search really quickly with a lot of electrical energy and computer power.  
+   2. Just be super lucky\!  
 2. BEST DIFFICULTY  
-   Okay, die Suchaufgabe ist noch etwas komplizierter. In dem Heuhaufen von intergalaktischer Größe lassen sich Nadeln von verschiedener Größe finden. Die maximale Nadelgröße, die es zu finden gilt, wird vom Bitcoin Netzwerk ständig an die Rechenkapazität im Netz angepasst. (Diese verdoppelt sich nämlich in der Welt der Computer gerne einfach so alle zwei Jahre, also eben nicht so wie bei den *v8-Steam-Diesel* Engines…)  
-   Je kleiner die Nadelgröße, um so höher die DIFFICULTY. (Siehe auch SCREEN \#3)  
-   Der Wert der hier steht entspricht der kleinsten Nadel, die dein **CRYPTO μMINER** bisher gefunden hat. 
-
+   Okay, the search task is a bit more complicated. In the haystack of intergalactic size, needles of different sizes can be found. The maximum needle size that has to be found is constantly adjusted by the Bitcoin network to the computing capacity in the network. (In the world of computers, this doubles every two years, not like with *v8 steam diesel* engines...)  
+   The smaller the needle size, the higher the DIFFICULTY. (See also SCREEN \#3)  
+   The value shown here corresponds to the smallest needle that your **CRYPTO μMINER** has found so far.  
 3. 32 BIT SHARES  
-   Die Anzahl der Nadeln die dein **CRYPTO μMINER** gefunden hat, die so klein sind, dass sie am Anfang des Bitcoin Netzes (also so um 2008\) als Lösung gegolten hätten.  
-   (Was einer DIFFICULTY \> 1 entspricht…)
-
+   The number of needles that your **CRYPTO μMINER** has found that are so small that they would have been considered a solution at the beginning of the Bitcoin network (around 2008).  
+   (Which corresponds to a DIFFICULTY \> 1...)  
 4. VALID BLOCKS  
-   Das zeigt immer 0\. (Es sei denn du gewinnst.)
-
+   This always shows 0\. (Unless you win.)  
 5. TOTAL MILLION HASHES  
-   Ein Hash entspricht einem suchenden Griff in den Heuhaufen.
-
+   A hash is like reaching into a haystack.  
 6. UP TIME  
-   Die Zeit in Tagen Stunden, Minuten und Sekunden seit dem letzten Start des **CRYPTO μMINER.**
-
+   The time in days, hours, minutes and seconds since the last start of the **CRYPTO μMINER.**  
 7. HASHRATE  
-   Die aktuelle Anzahl an Suchzugriffen in den Heuhaufen pro Sekunde.  
-   Diese Zahl schwankt in Abhängigkeit von der Rechenleistung die der **CRYPTO μMINER** für andere Aufgaben wie Netzwerkkommunikation oder Bildschirmaufbau abzweigen muss. (Manchmal kann auch mal der Nachschub an neuen Suchaufgaben etwas stocken…)
+   The current number of searches in the haystack per second.  
+   This number varies depending on the computing power that the **CRYPTO μMINER** has to divert to other tasks such as network communication or screen display. (Sometimes the supply of new search tasks can also be a little slow...)
 
-### **SCREEN \#2**
+### SCREEN \#2
 
-Hier kann man sehen, wie die super genau mit dem Internet synchronisierte Zeit vergeht.  
-(Das das Crypto-Mining im Hintergrund weiter läuft, behalten wir natürlich auch immer mit einem Auge im Blick…)
+Here you can see how time passes, which is synchronized with the internet with great precision.  
+(Of course, we always keep an eye on the fact that crypto mining continues to run in the background...)
 
-### **SCREEN \#3**
+### SCREEN \#3
 
-Auf diesem Screen kann man eine Übersicht über wichtige Parameter des globalen Bitcoin Netzwerks erhalten.
+On this screen you can get an overview of important parameters of the global Bitcoin network.
 
 1. BTC PRICE  
-   Wenn du jemals Bitcoins hättest und diese tatsächlich in olles altes Geld umtauschen wolltest, dann entspricht diese Zahl dem aktuellen Handelswert eines Bitcoins in USD.
-
+   If you ever had Bitcoins and actually wanted to exchange them for plain old money, this number corresponds to the current trading value of one Bitcoin in USD.  
 2. BLOCK REWARD  
-   Die Höhe der Belohnung in Bitcoins für eine Lösung mit der ein Transaktionsblock verifiziert würde.
-
+   The amount of the reward in Bitcoins for a solution that would verify a block of transactions.  
 3. DIFFICULTY  
-   Die aktuell im Netzwerk vorgegebene DIFFICULTY für die Suchaufgaben.  
-   (Ein Zahlenwert mit T  (Tera) am Ende entspricht einem Faktor von 10^12- also ziemlich groß, bzw. recht schwierig. Mega also 10^6 wäre eher weniger schwer…)  
-   Der Zahlenwert wird also zur besseren Lesbarkeit mit sog. *Metric SI prefixes* 👁‍🗨 angegeben.
-
+   The DIFFICULTY currently specified in the network for the search tasks.  
+   (A numerical value with T (Tera) at the end corresponds to a factor of 10^12 \- so quite large, or quite difficult. Mega, i.e. 10^6, would be less difficult...) The numerical value is therefore given with so-called *Metric SI prefixes* 👁‍🗨  
+   for better readability .  
 4. CURRENT BLOCK  
-   Alle in der Blockchain verifizierten Transaktionsblöcke sind durchnummeriert. Dies ist die Nummer des letzten. Diese Zahl sollte so ca. alle 10 Min. um eins erhöht werden. 
-
+   All transaction blocks verified in the blockchain are numbered. This is the number of the last one. This number should be increased by one approximately every 10 minutes.  
 5. REMAINING  
-   Die Anzahl der Blöcke die noch verbleiben, bis die Belohnung für eine erfolgreiche Blockverifizierung halbiert wird. (Siehe unter *Bitcoin Halving* 👁‍🗨)
-
+   The number of blocks remaining until the reward for a successful block verification is halved. (See *Bitcoin Halving* 👁‍🗨)  
 6. GLOBAL HASHRATE  
-   Die aktuelle Anzahl der Suchversuche aller Mining Computer im globalen Bitcoin Netzwerk in einer einzigen Sekunde.  
-   (Okay, wieder SI prefixed. Hier mit E also EH/s sprich *Exa* also Faktor 10^18 😨- unser **CRYPTO μMINER** schafft gerade so 80 kH/s also Faktor 10^3 \- aber wir setzen halt einfach auf viel mehr Glück\!
+   The current number of search attempts by all mining computers in the global Bitcoin network in a single second.  
+   (Okay, again SI prefixed. Here with E, i.e. EH/s, i.e. *Exa* , i.e. factor 10^18 😨- our **CRYPTO μMINER** just manages 80 kH/s, i.e. factor 10^3 \- but we're just relying on a lot more luck\!
 
- **SCREEN \#4**
+### SCREEN \#4
 
-Dieser Screen gibt Auskunft über weitere Status Parameter des **CRYPTO μMINER.**
+This screen provides information about further status parameters of the **CRYPTO μMINER.**
 
 1. NTP UPDATE  
-   Zeitpunkt zu dem die Zeit zuletzt mit dem Netzwerk synchronisiert wurde. (Die Synchronisation erfolgt derzeit alle 5 Stunden.)
-
+   Time at which the time was last synchronized with the network. (Synchronization currently occurs every 5 hours.)  
 2. POOL  
-   TCP/IP Netzwerkadresse des Mining Pool von dem der **CRYPTO μMINER** seine Suchaufgaben bezieht.
-
+   TCP/IP network address of the mining pool from which the **CRYPTO μMINER** obtains its search tasks.  
 3. NAME  
-   Pool Anmeldungsname. Wird so teilweise in Pool statistiken aufgeführt…
-
+   Pool registration name. Is sometimes listed in pool statistics…  
 4. SESSION  
-   Pool Session ID (vergeben über Stratum Protokoll)
-
-5. BEST DIFF  
-   Beste von deinem **CRYPTO μMINER** bisher an den Pool gemeldete Lösungs-DIFFICULTY.
-
+   Pool Session ID (assigned via Stratum Protocol)  
+5. BEST DIFF Best solution DIFFICULTY reported  
+   by your **CRYPTO μMINER to the pool so far.**  
 6. CPU & POWER  
-   Wer viel rechnet, kann einen heißen Kopf bekommen. Alles unter 70° ist okay. (Ein Abschalten des Backlights schafft für Kühlung.)  
-   Die Spannungsangabe ist ein Indikator für die Güte des USB-Kabels. (Je näher bei 5V, umso besser…)
+   If you do a lot of calculations, your head can get hot. Anything under 70° is OK. (Turning off the backlight will help cool it down.)  
+   The voltage is an indicator of the quality of the USB cable. (The closer to 5V, the better...)  
 
-4. ## **Tips & Tricks?**
+## D. Any Tips & Tricks?
 
 1. ALWAYS ON  
-   Halte den **CRYPTO μMINER** möglichst immer eingeschaltet. Damit erhöhst du deine Chance auf einen Gewinn.  
-   Der Stromverbrauch ist so niedrig (ca. 170 mA an 5V entsprechen weniger als einem Watt), dass der keine Rolle spielen dürfte.
-
-2. ABWESENHEIT  
-   Schalte das Display Backlight ab, wenn du den **CRYPTO μMINER** alleine lässt.  
-   Ohne den sonst notwendigen Screen Update erhöht sich die Hashrate und du hältst zusätzlich die CPU Temperatur niedrig.
-
-3. DUNKLE UMGEBUNG  
-   Dimme die Display Helligkeit herunter, um nicht von dem maximal hellen Display geblendet zu werden.
-
+   Keep the **CRYPTO μMINER** switched on as often as possible. This increases your chance of winning.  
+   The power consumption is so low (approx. 170 mA at 5V corresponds to less than one watt) that it shouldn't play a role.  
+2. ABSENCE  
+   Turn off the display backlight when you leave the **CRYPTO μMINER** alone.  
+   Without the otherwise necessary screen update, the hashrate increases and you also keep the CPU temperature low.  
+3. DARK ENVIRONMENT  
+    Dim the display brightness down to avoid being blinded by the maximum bright display.  
 4. BUTTON CUSTOMIZING  
-   Je nach dem, ob man den USB-Anschluss lieber links oder rechts hat, kann man durch Doppel-Klick auf den Display-Button die Darstelung um 180° Grad drehen.  
-   Am besten bringt man an einem der Buttons eine *custom* Markierung an (z.B. per Edding Stift), um die Buttons nicht zu verwechseln.
+    Depending on whether you prefer the USB connection on the left or right, you can rotate the display by 180° by double-clicking on the display button. It is best to add a *custom*  
+    marking to one of the buttons (eg with a permanent marker) so that the buttons are not confused.
 
-## 
 
-5. ## **Wie startet man das Setup des CRYPTO μMINER?**
+## E. How to start the setup of the **CRYPTO μMINER**?
 
-Um sich mit dem Bitcoin Netzwerk zu verbinden, benötigt der **CRYPTO μMINER**:
+To connect to the Bitcoin network, the **CRYPTO μMINER** needs:
 
-* Die Zugangsdaten für ein Wi-Fi Netzwerk  
-* Eine sog. Bitcoin Adresse auf die mögliche Belohnungen gebucht werden sollen.
+* The access data for a Wi-Fi network  
+* A so-called Bitcoin address to be used for possible rewards booking.
 
-Wenn die Verbindung mit einem Wi-Fi Netzwerk fehlschlägt, wechselt der **CRYPTO μMINER** automatisch auf den “CONNECTING” Screen (auf dem auch rechts ein QR-Code zu sehen ist).  
-In diesem Zustand wird ein Wi-Fi Access Point mit Namen **uMINER** geöffnet, mit dem man sich mit einem anderen Computer für die Konfiguration verbinden kann.  
-(Dein Smartphone ist zum Beispiel ein praktischer Computer, dessen Kamera außerdem gut für das Lesen des QR-Codes zu gebrauchen ist…)
+If the connection to a Wi-Fi network fails, the **CRYPTO μMINER** will automatically switch to the `“CONNECTING”` screen
+(which also has a QR code on the right).  
+In this state, a Wi-Fi access point called **`uMINER`** will be opened, which can be used to connect to another computer for configuration.  
+(Your smartphone, for example, is a handy computer, and its camera is also good for reading the QR code…)
 
-Nach dem Verbinden mit dem **uMINER** Access Point erscheint auf deinem Computer die Setup Portal Seite des **CRYPTO μMINER**.  
-Mit dem Button “Wifi Setup” kannst du du nun
+After connecting to the **`uMINER`** Access Point, the **CRYPTO μMINER** Setup Portal page will appear on your computer.  
+With the `“Wifi Setup”` button you can now
 
-* Die Zugangsdaten zu einem Wi-Fi Netzwerk konfigurieren (SSID und Password)  
-* Deine Mining Pool Daten anpassen.
+* Configure the access data for a Wi-Fi network (SSID and password)  
+* Adjust your mining pool data.  
 
-6. ## **Wo sind meine Bitcoins?**
+## F. Where are my Bitcoins?**
 
-Sobald dein **CRYPTO μMINER** einen Transaktionsblock in der Blockchain verifiziert hat, wird dir deine Belohnung an deine Bitcoin Adresse überwiesen. (D.h. es wird ein entsprechender Eintrag in der globalen Blockchain hinterlegt.)
+As soon as your **CRYPTO μMINER** has verified a transaction block in the blockchain,
+your reward will be transferred to your Bitcoin address. (I.e. a corresponding entry will be stored in the global blockchain.)
 
-Du kannst die Transaktionen auf eine beliebige (oder auch **deine**) Bitcoin Adresse jederzeit im Netzwerk nachsehen:
+You can view the transactions to any (or even **your** ) Bitcoin address at any time in the network:
 
 ![][image3] https://mempool.space/
 
-Deine öffentliche Adresse findest du auf der beiliegenden  **CRYPTO μMINER License**, die du unbedingt gut und sicher aufbewahren solltest.
+If you not only want to enjoy your winning Bitcoins, but also want to spend them again, it will be necessary for you to set up a digital cryptocurrency wallet.
 
-Wenn du dich nicht nur über deine gewonnen Bitcoins freuen willst, sondern diese wieder ausgeben willst, wird es notwendig, dass du dich mit der Einrichtung eines digitalen Cryptocurrency Wallets beschäftigst.
+## G. How do cryptocurrencies work?
 
-7. ## **Wie funktionieren die Cryptocurrencies?**
-
-Eine sehr gute, aber leider auch nur sehr schwer zu beantwortende Frage. Als Einstieg sei folgendes als weitergehende Lektüre empfohlen:
+A very good question, but unfortunately also very difficult to answer.  
+As a starting point, the following is recommended as further reading:
 
 | ![][image4]https://en.wikipedia.org/wiki/Bitcoin\_protocol | ![][image5]https://en.bitcoin.it/wiki/Difficulty |
 | :---- | :---- |
