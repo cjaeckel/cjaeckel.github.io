@@ -339,4 +339,4 @@ defaults:
       comments: false
       toc: true
       sidebar:
-        nav: "docs"
+        nav: "uMINER"

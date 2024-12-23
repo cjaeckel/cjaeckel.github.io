@@ -1,11 +1,11 @@
 ---
 permalink: /docs/uMINER/
 title: "CRYPTO μMINER FAQ"
+last_modified_at: 2024-12-22T13:21:09
 ---
 
-# **CRYPTO μMINER FAQ**
-
-**CONTROLS**
+### CONTROLS
+<img src="/assets/img/Overview.png" width="80%"/>
 
 ## A. WTF \- what is this for?
 
@@ -66,8 +66,8 @@ and that I then found and put together.)
 
 | 		|  	|
 | :--- | :--- |
-| <ul><li>Real-time multitasking core</li><li>network stack: WiFi, TCP-IP, HTTP, Stratum</li><li>Web server for configuration via WiFi access point</li><li>Graphics library for the display</li><li>Crypto library for the mining functions</li></ul> | The whole thing (including my part) can be found on the Internet as open source software 👁‍🗨 <br/>Well, there really is a lot more than dancing influencers and cat videos… |
-|![][image1] | ![][image2] https://github.com/cjaeckel/uMiner |
+| {::nomarkdown}<ul><li>Real-time multitasking core</li><li>network stack: WiFi, TCP-IP, HTTP, Stratum</li><li>Web server for configuration via WiFi access point</li><li>Graphics library for the display</li><li>Crypto library for the mining functions</li></ul> | The whole thing (including my part) can be found on the Internet as open source software 👁‍🗨 <br/>Well, there really is a lot more than dancing influencers and cat videos… |
+|![][image1] | [![gitHub][image2] https://github.com/cjaeckel/uMiner](https://github.com/cjaeckel/uMiner) |
 
 ## B. What exactly is in the screens?
 

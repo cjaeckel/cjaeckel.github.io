@@ -8,3 +8,12 @@ main:
     url: /docs/
   - title: "Tools"
     url: /tools/
+
+# uMINER links
+uMINER:
+  - title: μMINER FAQ
+    children:
+      - title: "english"
+        url: /docs/uMINER/
+      - title: "german"
+        url: /docs/uMINER_de/

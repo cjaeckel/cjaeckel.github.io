@@ -2,11 +2,11 @@
 permalink: /docs/uMINER_de/
 title: "CRYPTO μMINER FAQ (de)"
 locale: "de"
+hidden: true
 ---
 
-# **CRYPTO μMINER FAQ**
-
-**CONTROLS**
+### CONTROLS
+<img src="/assets/img/Overview.png" width="80%"/>
 
 ## A. WTF \- wozu ist das?
 
