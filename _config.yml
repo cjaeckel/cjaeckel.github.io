@@ -306,7 +306,7 @@ collections:
     permalink: /:collection/:path/
   tools:
     output: true
-    permalink: /:collection/:basename/
+    permalink: /:collection/:path/  # /:collection/:basename/
 
 # Defaults
 defaults:
@@ -346,8 +346,5 @@ defaults:
       path: ""
       type: tools
     values:
+      tool: true
       title: :basename
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
